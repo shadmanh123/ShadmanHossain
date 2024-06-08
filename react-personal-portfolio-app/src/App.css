@@ -1,0 +1,136 @@
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+}
+
+.homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+.navbar {
+  position: fixed;
+  z-index: var(--zindex-nav);
+  width: 100vw;
+  padding: 0 1.6vw;
+  /* Below is how you center the navbar */
+  text-align: center;
+}
+.nav-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.5vw;
+}
+.nav-list:hover {
+  background-color: rgba(180, 180, 180, 0.2);
+  transition: background-color 0.4s, color 0.4s;
+  border-radius: 1vw;
+}
+.nav-list li {
+  font-size: 1.5vw;
+  display: inline-block;
+  margin-right: 4vw;
+}
+.nav-list li:last-child {
+  margin-right: 0;
+}
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-list li a:hover {
+  color: red;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent;
+  border: 0.1vw solid white;
+  border-radius: 1vw;
+  padding: 0.5vw 1.5vw;
+  margin-left: 6.25vw;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1vw;
+  transition: background-color 0.4s, color 0.4s;
+}
+.button:hover {
+  background-color: rgba(180, 180, 180, 0.2);
+  color: red;
+}
+.button + .button {
+  margin-left: 1.25vw;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  margin: 0 1.6vw;
+  width: 3vw;
+  height: auto;
+  background-color: transparent;
+  transition: background-color 0.4s, color 0.4s;
+}
+.contact:hover {
+  background-color: rgba(180, 180, 180, 0.2);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

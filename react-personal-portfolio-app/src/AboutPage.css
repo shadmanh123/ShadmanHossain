@@ -1,0 +1,27 @@
+.aboutpage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw;
+  min-height: 100vh;
+  background-color: black;
+  color: black;
+}
+#about {
+  margin-right: 2vw;
+  font-size: 1.25vw;
+  line-height: 1.6;
+  color: white;
+}
+#my-image {
+  flex-shrink: 0;
+  max-width: 30%;
+  text-align: center;
+}
+
+#my-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
