@@ -1,4 +1,4 @@
-.homepage {
+.home-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,19 +11,19 @@
   background-size: cover;
   text-align: left;
 }
-#title {
+#home-page__title {
   margin-bottom: 0;
   padding-top: 10vw;
   padding-left: 3vw;
   text-align: left;
-  font-size: 4vw;
+  font-size: 6vw;
   color: white;
 }
-#description {
+#home-page__description {
   margin-top: 0%;
   padding-left: 3vw;
   padding-right: 3vw;
   text-align: left;
-  font-size: 1.25vw;
+  font-size: 3vw;
   color: white;
 }

@@ -16,9 +16,9 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="homepage">
-      <h1 id="title">Shadman Hossain</h1>
-      <h2 id="description">
+    <div className="home-page">
+      <h1 id="home-page__title">Shadman Hossain</h1>
+      <h2 id="home-page__description">
         A
         <TextTransition
           springConfig={presets.wobbly}

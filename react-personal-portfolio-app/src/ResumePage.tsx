@@ -2,10 +2,12 @@ import "./ResumePage.css";
 
 export default function ResumePage() {
   return (
-    <div className="resumePage">
-      <h1 id="title">Experience</h1>
-      <div id="technologies">
-        <h2>Technologies:</h2>
+    <div className="resume-page">
+      <div id="resume-page__title">
+        <h2>Experience</h2>
+      </div>
+      <div id="resume-page__technologies">
+        <h3>Technologies:</h3>
       </div>
     </div>
   );

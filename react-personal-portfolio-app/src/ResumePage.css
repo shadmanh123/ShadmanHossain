@@ -1,14 +1,20 @@
-.ResumePage {
+.resume-page {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding: 3vw;
   min-height: 100vh;
+  background-color: black;
+  color: black;
 }
-
-#title {
-  display: flex;
-  justify-content: center;
+#resume-page__title {
   text-align: center;
-  font-size: 4vw;
+  font-size: 3vw;
+  color: white;
+}
+#resume-page__technologies {
+  text-align: left;
+  font-size: 1.5vw;
+  color: white;
 }
