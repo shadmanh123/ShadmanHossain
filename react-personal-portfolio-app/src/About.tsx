@@ -1,7 +1,6 @@
 export default function About() {
   return (
     <>
-      <p>About me:</p>
       <p>
         I am a recent graduate based in Vancouver, Canada. I have recently
         completed my Bachelors of Science in Molecular Biology/Biochemistry and

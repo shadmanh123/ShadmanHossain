@@ -1,12 +1,25 @@
 .aboutpage {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 3vw;
   min-height: 100vh;
   background-color: black;
   color: black;
+}
+
+#about-and-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw;
+}
+#title {
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
 }
 #about {
   margin-right: 2vw;
