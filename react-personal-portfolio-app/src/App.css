@@ -40,10 +40,7 @@ html {
   display: inline-block;
   list-style-type: none;
   padding: 0.5vw;
-}
-.nav-list:hover {
-  background-color: rgba(180, 180, 180, 0.2);
-  transition: background-color 0.4s, color 0.4s;
+  background-color: rgba(180, 180, 180, 1);
   border-radius: 1vw;
 }
 .nav-list li {
@@ -55,8 +52,9 @@ html {
   margin-right: 0;
 }
 .nav-list li a {
-  color: white;
+  color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 .nav-list li a:hover {
   color: red;
