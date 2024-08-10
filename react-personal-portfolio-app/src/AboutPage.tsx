@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="about-page">
       <div id="about-page__title">
-        <h2>/about_me</h2>
+        <h1>/about_me</h1>
       </div>
       <div id="about-page__about--and--image">
         <div id="about-page__about--and--image--about">

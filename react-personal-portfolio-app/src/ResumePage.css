@@ -6,10 +6,16 @@
   padding: 3vw;
   min-height: 100vh;
   background-color: black;
-  color: black;
-}
-#resume-page__title {
-  text-align: center;
-  font-size: 3vw;
   color: white;
 }
+/* #resume-page__experience--title {
+  color: white;
+} */
+
+#resume-page__experience {
+  align-self: flex-start;
+}
+
+/* #resume-page__projects--title {
+  color: white;
+} */

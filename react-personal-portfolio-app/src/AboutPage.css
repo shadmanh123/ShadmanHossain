@@ -5,13 +5,10 @@
   align-items: center;
   padding: 3vw;
   min-height: 100vh;
-  background-color: black;
+  background-color: white;
   color: black;
 }
-#about-page__title {
-  color: white;
-  font-size: 3vw;
-}
+
 #about-page__about--and--image {
   display: flex;
   flex-direction: row;
@@ -23,7 +20,6 @@
   margin-right: 2vw;
   font-size: 1.25vw;
   line-height: 1.6;
-  color: white;
 }
 #about-page__about--and--image--my--image {
   flex-shrink: 0;
