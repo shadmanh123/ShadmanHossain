@@ -20,14 +20,6 @@ html {
   height: 100%;
 }
 
-.homepage {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  text-align: left;
-}
 .navbar {
   position: fixed;
   z-index: var(--zindex-nav);
