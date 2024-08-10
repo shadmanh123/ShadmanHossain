@@ -16,7 +16,7 @@ export default function About() {
         efficiently. I am comfortable working in collaborative team environments
         as well as independently, adapting to the needs of the project and
         delivering high-quality results. My hobbies include working out at the
-        gym, watching movies, and staying up-to-date on news about EVs.
+        gym, playing sports and watching movies.
       </p>
     </>
   );
