@@ -19,6 +19,7 @@ export default function ResumePage() {
           description={
             "Developed an advanced Python-based AI agent modelled after Pac-Man that learns from its mistakes and improves gameplay strategy to achieve the highest score in new mazes with varying numbers of ghosts"
           }
+          link={"https://github.com/shadmanh123/Pacman-AI-Project"}
         />
         <Card
           title={"Guess-The-Era Game"}
@@ -42,3 +43,7 @@ export default function ResumePage() {
     </div>
   );
 }
+
+/* TODO
+- Fix spacing issue where if screen is small like cellphone then have project cards aligned in single column
+*/
