@@ -9,14 +9,21 @@
   color: white;
 }
 
-#resume-page__experience {
-  align-self: flex-start;
+#resume-page__experience--title {
+  font-size: 2vw;
 }
 
+#resume-page__experience {
+  align-self: flex-start;
+  font-size: 1.25vw;
+}
+
+#resume-page__projects--title {
+  font-size: 2vw;
+}
 #resume-page__projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* margin: 15vw; */
 }

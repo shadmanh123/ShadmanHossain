@@ -9,6 +9,10 @@
   color: black;
 }
 
+#about-page__title {
+  font-size: 2vw;
+}
+
 #about-page__about--and--image {
   display: flex;
   flex-direction: row;
