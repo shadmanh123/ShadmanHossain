@@ -8,14 +8,15 @@
   background-color: black;
   color: white;
 }
-/* #resume-page__experience--title {
-  color: white;
-} */
 
 #resume-page__experience {
   align-self: flex-start;
 }
 
-/* #resume-page__projects--title {
-  color: white;
-} */
+#resume-page__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* margin: 15vw; */
+}

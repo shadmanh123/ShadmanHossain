@@ -22,7 +22,7 @@ html {
 
 .navbar {
   position: fixed;
-  z-index: var(--zindex-nav);
+  z-index: 1;
   width: 100vw;
   padding: 0 1.6vw;
   /* Below is how you center the navbar */
