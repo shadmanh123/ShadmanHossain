@@ -23,13 +23,13 @@ export default function ResumePage() {
         <Card
           title={"Guess-The-Era Game"}
           description={
-            "Developed a Kotlin app for the photo-based game, where users determine the year or decade of photos for points, compete against other players in real-time, and view friends’ scores in a leaderboard"
+            "Developed a Kotlin app for the photo-based game, where users determine the year or decade of photos for points, compete against other players in real-time, and view friends' scores in a leaderboard"
           }
         />
         <Card
           title={"Game Score Calculator"}
           description={
-            "Engineered a user-friendly Java app offering users a comprehensive platform to accurately compute and monitor scores based on specific parameters inherent to each game’s scoring system"
+            "Engineered a user-friendly Java app offering users a comprehensive platform to accurately compute and monitor scores based on specific parameters inherent to each game's scoring system"
           }
         />
         <Card
