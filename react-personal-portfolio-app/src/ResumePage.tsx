@@ -26,18 +26,21 @@ export default function ResumePage() {
           description={
             "Developed a Kotlin app for the photo-based game, where users determine the year or decade of photos for points, compete against other players in real-time, and view friends' scores in a leaderboard"
           }
+          link={"https://github.com/shadmanh123/GuessTheEra"}
         />
         <Card
           title={"Game Score Calculator"}
           description={
             "Engineered a user-friendly Java app offering users a comprehensive platform to accurately compute and monitor scores based on specific parameters inherent to each game's scoring system"
           }
+          link={"https://github.com/shadmanh123/Game_Score_Calculator"}
         />
         <Card
           title={"Trip Planner"}
           description={
             "Constructed a database using MySQL to plan travel itineraries, including attractions, currencies, and scheduling options, while providing information on accommodations and risk assessment for a tailored trip experience"
           }
+          //Find a way to display the trip planner database
         />
       </div>
     </div>

@@ -85,6 +85,7 @@
 .card__contents__back {
   transform: rotateY(180deg);
   color: white;
+  position: relative;
 }
 
 .card__contents__back .card__contents__back__content {
@@ -99,25 +100,27 @@
 }
 
 .card__contents__back__github-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
   display: flex;
   justify-content: center;
   width: fit-content;
 }
 
-/* .card__contents__back__content .badge {
-  background-color: #00000055;
-  padding: 2px 10px;
-  border-radius: 10px;
-  backdrop-filter: blur(2px);
-  width: fit-content;
-} */
+.card__contents__back__github-icon img {
+  width: 2vw;
+  height: 2vw;
+  cursor: pointer;
+}
 
 .description-content {
   box-shadow: 0px 0px 10px 5px #00000088;
   width: fit-content;
   height: fit-content;
   font-size: 1vw;
-  padding: 10px;
+  margin: 0.25vw;
+  padding: 1vw;
   background-color: #00000099;
   backdrop-filter: blur(5px);
   border-radius: 5px;
