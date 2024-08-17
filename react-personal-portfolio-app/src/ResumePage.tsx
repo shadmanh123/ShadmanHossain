@@ -40,7 +40,9 @@ export default function ResumePage() {
           description={
             "Constructed a database using MySQL to plan travel itineraries, including attractions, currencies, and scheduling options, while providing information on accommodations and risk assessment for a tailored trip experience"
           }
-          //Find a way to display the trip planner database
+          link={
+            "https://github.com/shadmanh123/Trip-Planner-Database/tree/main"
+          }
         />
       </div>
     </div>
