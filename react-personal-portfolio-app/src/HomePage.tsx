@@ -19,14 +19,14 @@ export default function HomePage() {
     <div className="home-page">
       <h1 id="home-page__title">Shadman Hossain</h1>
       <h2 id="home-page__description">
-        A
+        A{" "}
         <TextTransition
           springConfig={presets.wobbly}
           style={{ margin: "0 4px" }}
           inline
         >
           {ROLES[roleIndex % ROLES.length]}
-        </TextTransition>
+        </TextTransition>{" "}
         Developer
       </h2>
     </div>

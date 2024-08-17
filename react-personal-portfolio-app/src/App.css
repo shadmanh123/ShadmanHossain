@@ -22,18 +22,21 @@ html {
 
 .navbar {
   position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
-  width: 100vw;
+  width: 40%;
   padding: 0 1.6vw;
-  /* Below is how you center the navbar */
   text-align: center;
 }
 .nav-list {
-  display: inline-block;
   list-style-type: none;
   padding: 0.5vw;
   background-color: rgba(180, 180, 180, 1);
-  border-radius: 1vw;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: space-around;
 }
 .nav-list li {
   font-size: 1.5vw;
