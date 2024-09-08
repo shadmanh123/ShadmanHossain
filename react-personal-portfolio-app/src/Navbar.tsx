@@ -16,7 +16,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToSection }) => {
           <a onClick={() => scrollToSection("resume")}>Resume</a>
         </li>
         <li>
-          <a onClick={() => scrollToSection("contact")}>Contact</a>
+          <a onClick={() => scrollToSection("connect")}>Connect</a>
         </li>
       </ul>
     </nav>

@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import HomePage from "./HomePage";
-import ContactCard from "./ContactCard";
+import ConnectPage from "./ConnectPage";
 import AboutPage from "./AboutPage";
 import ResumePage from "./ResumePage";
 import "./App.css";
@@ -10,7 +10,7 @@ function App() {
   const homePageRef = useRef<HTMLDivElement>(null);
   const aboutPageRef = useRef<HTMLDivElement>(null);
   const resumePageRef = useRef<HTMLDivElement>(null);
-  const contactCardRef = useRef<HTMLDivElement>(null);
+  const connectPageRef = useRef<HTMLDivElement>(null);
 
   const scrollToSection = (section: string): void => {
     switch (section) {
@@ -23,8 +23,8 @@ function App() {
       case "resume":
         resumePageRef.current?.scrollIntoView({ behavior: "smooth" });
         break;
-      case "contact":
-        contactCardRef.current?.scrollIntoView({ behavior: "smooth" });
+      case "connect":
+        connectPageRef.current?.scrollIntoView({ behavior: "smooth" });
         break;
       default:
         break;
@@ -44,9 +44,15 @@ function App() {
           <ResumePage />
         </div>
       </div>
-      <div ref={contactCardRef} id="contact">
-        <ContactCard />
+      <div ref={connectPageRef} id="contact">
+        <ConnectPage />
       </div>
+      <footer>
+        <p>
+          Built and Designed by Shadman Hossain. <br /> All Rights Reserved.
+          &copy;
+        </p>
+      </footer>
     </>
   );
 }

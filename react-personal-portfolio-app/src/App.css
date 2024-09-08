@@ -77,23 +77,36 @@ html {
   margin-left: 1.25vw;
 }
 
-.contact-container {
+.connect-page {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  min-height: 10vw;
 }
-.contact {
-  margin: 0 1.6vw;
+
+#connect-page__title {
+  font-size: 2vw;
+}
+
+#connect-page_icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.connect {
+  margin: 1vw;
   width: 3vw;
-  height: auto;
+  height: 3vw;
   background-color: transparent;
   transition: background-color 0.4s, color 0.4s;
 }
-.contact:hover {
+.connect:hover {
   background-color: rgba(180, 180, 180, 0.2);
 }
 
 .logo {
-  height: 6em;
+  height: 2vw;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -103,6 +116,15 @@ html {
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+footer {
+  margin: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5em;
 }
 
 @keyframes logo-spin {
