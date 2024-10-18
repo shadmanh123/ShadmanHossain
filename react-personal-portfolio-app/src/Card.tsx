@@ -1,12 +1,19 @@
 import "./Card.css";
 import githubIcon from "./assets/images/GitHubIcon.png";
+import youtubeIcon from "./assets/images/YouTubeIcon.png";
 interface CardProps {
   title: string;
   description: string;
   link: string;
+  youtubeLink?: string;
 }
 
-export default function Card({ title, description, link }: CardProps) {
+export default function Card({
+  title,
+  description,
+  link,
+  youtubeLink,
+}: CardProps) {
   return (
     <div className="card">
       <div className="card__contents">
@@ -33,17 +40,20 @@ export default function Card({ title, description, link }: CardProps) {
               <p>{description}</p>
             </div>
           </div>
-          <div className="card__contents__back__github-icon">
-            <a href={link} target="_blank">
-              <img src={githubIcon} alt="GitHub icon"></img>
-            </a>
+          <div className="card__contents__back__links">
+            <div className="card__contents__back__links__icon">
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <img src={githubIcon} alt="GitHub icon"></img>
+              </a>
+              {youtubeLink && (
+                <a href={youtubeLink} target="_blank" rel="noopener noreferrer">
+                  <img src={youtubeIcon} alt="YouTube icon"></img>
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-/*TODO
-- Fix Github icon on cards
-*/

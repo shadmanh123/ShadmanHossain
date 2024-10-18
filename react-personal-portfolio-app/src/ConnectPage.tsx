@@ -11,6 +11,7 @@ export default function connectPageRef() {
         <a
           href="https://www.linkedin.com/in/shadman-hossain-30b9a2228/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="connect" src={linkedinIcon} alt="LinkedIn icon" />
         </a>
@@ -18,6 +19,7 @@ export default function connectPageRef() {
           className="connect-github"
           href="https://github.com/shadmanh123?tab=repositories"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img className="connect" src={githubIcon} alt="GitHub icon" />
         </a>

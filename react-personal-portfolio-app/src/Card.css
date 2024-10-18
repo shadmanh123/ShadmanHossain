@@ -98,17 +98,23 @@
   justify-content: center;
   align-items: center;
 }
-
-.card__contents__back__github-icon {
+.card__contents__back__links {
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+.card__contents__back__links__icon {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 1vw;
+  right: 1vw;
   display: flex;
   justify-content: center;
   width: fit-content;
 }
 
-.card__contents__back__github-icon img {
+.card__contents__back__links__icon img {
   width: 2vw;
   height: 2vw;
   cursor: pointer;

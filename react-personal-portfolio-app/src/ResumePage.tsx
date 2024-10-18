@@ -27,6 +27,7 @@ export default function ResumePage() {
             "Developed a Kotlin app for the photo-based game, where users determine the year or decade of photos for points, compete against other players in real-time, and view friends' scores in a leaderboard"
           }
           link={"https://github.com/shadmanh123/GuessTheEra"}
+          youtubeLink={"https://www.youtube.com/watch?v=bFwxkTvgPJg"}
         />
         <Card
           title={"Game Score Calculator"}

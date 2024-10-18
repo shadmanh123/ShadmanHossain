@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <>
       <h2>Glentel: Junior Systems Administrator</h2>
-      <h3>January 2023 - August 2024</h3>
+      <h3>January 2023 - September 2024</h3>
       <p>
         <ul>
           <li>
@@ -15,11 +15,12 @@ export default function Experience() {
           </li>
           <li>
             Received and diagnosed service requests to resolve software and
-            hardware related issues with a success rate of 98%.
+            hardware related issues with a success rate of 99%.
           </li>
           <li>
-            Collaborated with a cross-functional teams across Canada configuring
-            POS systems and driving monthly revenue of $100 million.
+            Collaborated with cross-functional teams across Canada, in process
+            optimization of POS terminal configurations and driving monthly
+            revenue of $100 million
           </li>
           <li>
             Perform various administrative duties, including generating reports,
