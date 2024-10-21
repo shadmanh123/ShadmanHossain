@@ -1,6 +1,6 @@
 import About from "./About";
 import "./AboutPage.css";
-import image from "./assets/images/Me.jpg";
+import image from "/assets/images/Me.jpg";
 
 export default function AboutPage() {
   return (

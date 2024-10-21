@@ -1,6 +1,6 @@
-import linkedinIcon from "./assets/images/LinkedInIcon.png";
-import githubIcon from "./assets/images/GitHubIcon.png";
-import outlookIcon from "./assets/images/OutlookIcon.png";
+import linkedinIcon from "/assets/images/LinkedInIcon.png";
+import githubIcon from "/assets/images/GitHubIcon.png";
+import outlookIcon from "/assets/images/OutlookIcon.png";
 export default function connectPageRef() {
   return (
     <div className="connect-page">
