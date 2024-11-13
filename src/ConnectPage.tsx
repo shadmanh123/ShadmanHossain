@@ -4,9 +4,6 @@ import outlookIcon from "/assets/images/OutlookIcon.png";
 export default function connectPageRef() {
   return (
     <div className="connect-page">
-      <div id="connect-page__title">
-        <h1>/Connect</h1>
-      </div>
       <div id="connect-page__icons">
         <a
           href="https://www.linkedin.com/in/shadman-hossain-30b9a2228/"

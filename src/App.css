@@ -82,11 +82,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 10vw;
-}
-
-#connect-page__title {
-  font-size: 2vw;
+  min-height: 1vw;
 }
 
 #connect-page_icons {
@@ -96,8 +92,8 @@ html {
 }
 .connect {
   margin: 1vw;
-  width: 3vw;
-  height: 3vw;
+  width: 1.5vw;
+  height: 1.5vw;
   background-color: transparent;
   transition: background-color 0.4s, color 0.4s;
 }
@@ -106,7 +102,7 @@ html {
 }
 
 .logo {
-  height: 2vw;
+  height: 1vw;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;

@@ -44,11 +44,11 @@ function App() {
           <ResumePage />
         </div>
       </div>
-      <div ref={connectPageRef} id="contact">
-        <ConnectPage />
-      </div>
       <footer>
         <p>
+          <div ref={connectPageRef} id="contact">
+            <ConnectPage />
+          </div>
           Built and Designed by Shadman Hossain. <br /> All Rights Reserved.
           &copy;
         </p>
