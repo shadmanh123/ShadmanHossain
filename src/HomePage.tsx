@@ -21,7 +21,7 @@ export default function HomePage() {
       <h2 id="home-page__description">
         A{" "}
         <TextTransition
-          springConfig={presets.wobbly}
+          springConfig={presets.stiff}
           style={{ margin: "0 4px" }}
           inline
         >
