@@ -123,13 +123,23 @@ footer {
   padding: 1.5em;
 }
 
-@keyframes logo-spin {
+@keyframes slide-up {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(50%);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0%);
   }
+}
+
+.slide-up {
+  animation: slide-up 1000ms ease-out;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {

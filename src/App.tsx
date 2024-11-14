@@ -4,7 +4,7 @@ import ConnectPage from "./ConnectPage";
 import AboutPage from "./AboutPage";
 import ResumePage from "./ResumePage";
 import "./App.css";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 
 function App() {
   const homePageRef = useRef<HTMLDivElement>(null);
@@ -30,6 +30,29 @@ function App() {
         break;
     }
   };
+
+  useEffect(() => {
+    const options = { threshold: 0.1 };
+    const handleIntersection = (entries: any[]) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("slide-up");
+          entry.target.classList.remove("hidden");
+        }
+      });
+    };
+    const observer = new IntersectionObserver(handleIntersection, options);
+
+    const sections = [homePageRef, aboutPageRef, resumePageRef, connectPageRef];
+    sections.forEach((ref) => {
+      if (ref.current) {
+        ref.current.classList.add("hidden");
+        observer.observe(ref.current);
+      }
+    });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
       <Navbar scrollToSection={scrollToSection} />
