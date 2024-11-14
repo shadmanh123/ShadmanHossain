@@ -1,7 +1,8 @@
+import "./About.css";
 export default function About() {
   return (
     <>
-      <p>
+      <p id="about-text">
         I am a recent graduate based in Vancouver, Canada. I have recently
         completed my Bachelors of Science in Molecular Biology/Biochemistry and
         Computer Science at Simon Fraser University. This interdisciplinary

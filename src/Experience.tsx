@@ -1,6 +1,7 @@
+import "./Experience.css";
 export default function Experience() {
   return (
-    <>
+    <div className="experience">
       <h2>Glentel: Junior Systems Administrator</h2>
       <h3>January 2023 - September 2024</h3>
       <p>
@@ -28,6 +29,6 @@ export default function Experience() {
           </li>
         </ul>
       </p>
-    </>
+    </div>
   );
 }

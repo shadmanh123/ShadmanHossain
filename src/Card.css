@@ -187,3 +187,24 @@
     transform: translateY(0px);
   }
 }
+
+@media (max-width: 800px) {
+  .card {
+    overflow: visible;
+    width: 50vw;
+    height: 50vw;
+    margin: 2vw;
+  }
+  .card__contents__front__content {
+    font-size: 2vw;
+  }
+  .card__contents__back__links__icon img {
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+  }
+  .description-content {
+    font-size: 2vw;
+    justify-content: center;
+  }
+}

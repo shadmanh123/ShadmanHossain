@@ -20,10 +20,9 @@
   align-items: center;
   padding: 3vw;
 }
+
 #about-page__about--and--image--about {
   margin-right: 2vw;
-  font-size: 1.25vw;
-  line-height: 1.6;
 }
 #about-page__about--and--image--my--image {
   flex-shrink: 0;
@@ -35,4 +34,20 @@
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+@media (max-width: 800px) {
+  #about-page__title {
+    font-size: 3vw;
+  }
+  #about-page__about--and--image {
+    flex-direction: column;
+    padding: 1vw;
+  }
+  #about-page__about--and--image--about {
+    font-size: 5vw;
+    line-height: 1.8vw;
+  }
+  #about-page__about--and--image--my--image img {
+    display: none;
+  }
 }

@@ -27,3 +27,11 @@
   font-size: 3vw;
   color: white;
 }
+@media (max-width: 800px) {
+  #home-page__title {
+    font-size: 10vw;
+  }
+  #home-page__description {
+    font-size: 5vw;
+  }
+}

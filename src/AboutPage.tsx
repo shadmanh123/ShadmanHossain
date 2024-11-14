@@ -22,6 +22,3 @@ export default function AboutPage() {
     </div>
   );
 }
-/* TODO
-- Fix resizing issue where if screen is small like phone screen, then have my image gone and only keep the about text.
-*/

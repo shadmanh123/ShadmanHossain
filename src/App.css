@@ -123,6 +123,10 @@ footer {
   padding: 1.5em;
 }
 
+.footer-content {
+  font-size: 1.5vw;
+}
+
 @keyframes slide-up {
   from {
     opacity: 0;
@@ -142,9 +146,20 @@ footer {
   opacity: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 800px) {
+  .navbar {
+    width: 60%;
+  }
+  .nav-list li {
+    font-size: 2.5vw;
+  }
+
+  .footer-content {
+    font-size: 2vw;
+  }
+  .connect {
+    width: 2vw;
+    height: 2vw;
   }
 }
 

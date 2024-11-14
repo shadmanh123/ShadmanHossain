@@ -15,7 +15,6 @@
 
 #resume-page__experience {
   align-self: flex-start;
-  font-size: 1.25vw;
 }
 
 #resume-page__projects--title {
@@ -26,4 +25,13 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 800px) {
+  #resume-page__experience--title {
+    font-size: 3vw;
+  }
+  #resume-page__projects--title {
+    font-size: 3vw;
+  }
 }

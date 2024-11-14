@@ -68,8 +68,8 @@ function App() {
         </div>
       </div>
       <footer>
-        <p>
-          <div ref={connectPageRef} id="contact">
+        <p className="footer-content">
+          <div ref={connectPageRef} id="connect">
             <ConnectPage />
           </div>
           Built and Designed by Shadman Hossain. <br /> All Rights Reserved.
