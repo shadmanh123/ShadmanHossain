@@ -1,6 +1,7 @@
 import linkedinIcon from "/assets/images/LinkedInIcon.png";
 import githubIcon from "/assets/images/GitHubIcon.png";
 import outlookIcon from "/assets/images/OutlookIcon.png";
+import "./ConnectPage.css";
 export default function connectPageRef() {
   return (
     <div className="connect-page">
@@ -13,7 +14,6 @@ export default function connectPageRef() {
           <img className="connect" src={linkedinIcon} alt="LinkedIn icon" />
         </a>
         <a
-          className="connect-github"
           href="https://github.com/shadmanh123?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
