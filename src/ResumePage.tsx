@@ -49,7 +49,3 @@ export default function ResumePage() {
     </div>
   );
 }
-
-/* TODO
-- Fix spacing issue where if screen is small like cellphone then have project cards aligned in single column
-*/
