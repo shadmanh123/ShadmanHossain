@@ -29,7 +29,7 @@
 }
 @media (max-width: 800px) {
   .home-page {
-    background-image: url("/assets/images/LandingPageMobile.jpg");
+    background-image: url("/assets/images/LandingPage.webp");
   }
   #home-page__title {
     font-size: 10vw;
