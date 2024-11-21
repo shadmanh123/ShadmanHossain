@@ -28,6 +28,9 @@
   color: white;
 }
 @media (max-width: 800px) {
+  .home-page {
+    background-image: url("/assets/images/LandingPage.jpg");
+  }
   #home-page__title {
     font-size: 10vw;
   }
