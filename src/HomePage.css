@@ -28,6 +28,11 @@
   color: white;
 }
 @media (max-width: 800px) {
+  .home-page {
+    background-image: url("/assets/images/LandingPageMobile.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+  }
   #home-page__title {
     font-size: 10vw;
   }
