@@ -1,6 +1,6 @@
 import "./Card.css";
-import githubIcon from "/assets/images/GitHubIcon.png";
-import youtubeIcon from "/assets/images/YouTubeIcon.png";
+import githubIcon from "/images/GitHubIcon.png";
+import youtubeIcon from "/images/YouTubeIcon.png";
 interface CardProps {
   title: string;
   description: string;
