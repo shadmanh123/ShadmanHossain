@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  background-image: url("/images/LandingPage.jpg");
+  background-image: url("/images/LandingPage.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -29,7 +29,7 @@
 }
 @media (max-width: 800px) {
   .home-page {
-    background-image: url("/images/LandingPageMobile.jpg");
+    background-image: url("/images/LandingPageMobile.webp");
     background-size: cover;
     background-attachment: scroll;
   }

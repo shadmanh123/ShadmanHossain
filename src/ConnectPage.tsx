@@ -1,6 +1,6 @@
-import linkedinIcon from "/images/LinkedInIcon.png";
-import githubIcon from "/images/GitHubIcon.png";
-import outlookIcon from "/images/OutlookIcon.png";
+import linkedinIcon from "/images/LinkedInIcon.webp";
+import githubIcon from "/images/GitHubIcon.webp";
+import outlookIcon from "/images/OutlookIcon.webp";
 import "./ConnectPage.css";
 export default function connectPageRef() {
   return (

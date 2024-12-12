@@ -1,6 +1,6 @@
 import About from "./About";
 import "./AboutPage.css";
-import image from "/images/Me.jpg";
+import image from "/images/Me.webp";
 
 export default function AboutPage() {
   return (
