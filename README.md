@@ -5,7 +5,7 @@
   The first iteration of <a href="https://shadmanhossain.vercel.app" target="_blank">shadmanhossain.vercel.app</a> built with React.js.
 </p>
 
-<img width="1306" alt="Website Preview Image" src="./public/images/WebsitePreview.png">
+<img width="1306" alt="Website Preview Image" src="./public/images/WebsitePreview.webp">
 
 ## 🛠 set-up
 
