@@ -57,13 +57,13 @@ function App() {
     <>
       <Navbar scrollToSection={scrollToSection} />
       <div className="app">
-        <div ref={homePageRef}>
+        <div ref={homePageRef} id="home">
           <HomePage />
         </div>
-        <div ref={aboutPageRef}>
+        <div ref={aboutPageRef} id="about">
           <AboutPage />
         </div>
-        <div ref={resumePageRef}>
+        <div ref={resumePageRef} id="resume">
           <ResumePage />
         </div>
       </div>
