@@ -5,12 +5,12 @@
   align-items: center;
   padding: 3vw;
   min-height: 50vh;
-  background-color: black;
+  background-color: var(--bg-colour);
   color: white;
 }
 
 #about-page__title {
-  font-size: 2vw;
+  font-size: var(--font-size-medium);
 }
 
 #about-page__about--and--image {

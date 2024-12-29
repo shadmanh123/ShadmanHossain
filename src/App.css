@@ -1,3 +1,14 @@
+:root {
+  --font-family: "Times New Roman", Times, serif;
+  --text-colour: white;
+  --bg-colour: black;
+  --primary-colour: #3498db;
+  --font-size-small: 1.5vw;
+  --font-size-medium: 2.5vw;
+  --font-size-large: 4vw;
+  --font-size-heading: 6vw;
+}
+
 body,
 html {
   margin: 0%;
@@ -7,9 +18,9 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: black;
-  font-family: "Times New Roman", Times, serif;
-  color: white;
+  background-color: var(--bg-colour);
+  font-family: var(--font-family);
+  color: var(--text-colour);
   scroll-behavior: smooth;
 }
 
@@ -39,7 +50,7 @@ html {
   justify-content: space-around;
 }
 .nav-list li {
-  font-size: 1.5vw;
+  font-size: var(--font-size-medium);
   display: inline-block;
   margin-right: 4vw;
 }
@@ -87,7 +98,7 @@ footer {
 }
 
 .footer-content {
-  font-size: 1.5vw;
+  font-size: var(--font-size-medium);
 }
 
 @keyframes slide-up {

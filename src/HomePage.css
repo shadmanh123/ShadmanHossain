@@ -16,7 +16,7 @@
   padding-top: 10vw;
   padding-left: 3vw;
   text-align: left;
-  font-size: 6vw;
+  font-size: var(--font-size-heading);
   color: white;
 }
 #home-page__description {
@@ -24,7 +24,7 @@
   padding-left: 3vw;
   padding-right: 3vw;
   text-align: left;
-  font-size: 3vw;
+  font-size: var(--font-size-large);
   color: white;
 }
 @media (max-width: 800px) {
