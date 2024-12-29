@@ -1,33 +1,16 @@
 .experience {
-  line-height: 1.6;
+  line-height: var(--line-height-text);
 }
 .experience h2 {
-  font-size: 1.5vw;
+  font-size: var(--font-size-medium);
 }
 
 .experience h3 {
-  font-size: 1.25vw;
-}
-.experience p,
-.experience ul,
-.experience li {
-  font-size: 1.15vw;
+  font-size: var(--font-size-small);
 }
 
 @media (max-width: 800px) {
   .experience {
-    line-height: 1.8;
-  }
-  .experience h2 {
-    font-size: 2.5vw;
-  }
-
-  .experience h3 {
-    font-size: 2.25vw;
-  }
-  .experience p,
-  .experience ul,
-  .experience li {
-    font-size: 2vw;
+    line-height: var(--line-height-text-mobile);
   }
 }

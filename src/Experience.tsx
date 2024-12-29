@@ -2,10 +2,10 @@ import "./Experience.css";
 export default function Experience() {
   return (
     <div className="experience">
-      <h2>Glentel: Junior Systems Administrator</h2>
-      <h3>January 2023 - September 2024</h3>
+      <h2 className="heading">Glentel: Junior Systems Administrator</h2>
+      <h3 className="subheading">January 2023 - September 2024</h3>
       <p>
-        <ul>
+        <ul className="list">
           <li>
             Monitor and respond to multiple network and computer monitoring
             consoles to ensure optimal system performance.

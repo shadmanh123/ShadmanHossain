@@ -96,6 +96,17 @@ html {
   line-height: var(--line-height-text);
 }
 
+.heading {
+  font-size: var(--font-size-medium);
+}
+
+.subheading {
+  font-size: 1.25vw;
+}
+
+.list {
+  font-size: 1.15vw;
+}
 footer {
   margin: 1vw;
   display: flex;
@@ -138,6 +149,15 @@ footer {
   .text {
     font-size: var(--font-size-text-mobile);
     line-height: var(--line-height-text-mobile);
+  }
+  .heading {
+    font-size: 3vw;
+  }
+  .subheading {
+    font-size: 2.25vw;
+  }
+  .list {
+    font-size: 2vw;
   }
   .footer-content {
     font-size: 2.5vw;

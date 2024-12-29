@@ -4,22 +4,20 @@
   justify-content: flex-start;
   align-items: center;
   padding: 3vw;
-  min-height: 50;
-  background-color: black;
-  color: white;
+  min-height: 50vh;
+  background-color: var(--bg-colour);
+  color: var(--text-colour);
 }
 
-#resume-page__experience--title {
-  font-size: 2vw;
+#resume-page__experience--title,
+#resume-page__projects--title {
+  font-size: var(--font-size-medium);
 }
 
 #resume-page__experience {
   align-self: flex-start;
 }
 
-#resume-page__projects--title {
-  font-size: 2vw;
-}
 #resume-page__projects {
   display: flex;
   flex-wrap: wrap;
@@ -28,10 +26,8 @@
 }
 
 @media (max-width: 800px) {
-  #resume-page__experience--title {
-    font-size: 3vw;
-  }
+  #resume-page__experience--title,
   #resume-page__projects--title {
-    font-size: 3vw;
+    font-size: var(--font-size-large);
   }
 }
