@@ -7,6 +7,9 @@
   --font-size-medium: 2vw;
   --font-size-large: 3vw;
   --font-size-heading: 6vw;
+  --line-height-text: 1.6;
+  --font-size-text-mobile: 4vw;
+  --line-height-text-mobile: 1.8;
 }
 
 body,
@@ -88,6 +91,11 @@ html {
   margin-left: 1.25vw;
 }
 
+.text {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-text);
+}
+
 footer {
   margin: 1vw;
   display: flex;
@@ -127,7 +135,10 @@ footer {
   .nav-list li {
     font-size: 2.5vw;
   }
-
+  .text {
+    font-size: var(--font-size-text-mobile);
+    line-height: var(--line-height-text-mobile);
+  }
   .footer-content {
     font-size: 2.5vw;
   }
