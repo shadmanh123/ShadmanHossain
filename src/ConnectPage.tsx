@@ -11,18 +11,18 @@ export default function connectPageRef() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="connect" src={linkedinIcon} alt="LinkedIn icon" />
+          <img className="icon" src={linkedinIcon} alt="LinkedIn icon" />
         </a>
         <a
           href="https://github.com/shadmanh123?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="connect" src={githubIcon} alt="GitHub icon" />
+          <img className="icon" src={githubIcon} alt="GitHub icon" />
         </a>
         <a href="mailto:shadman_h@hotmail.com">
           <img
-            className="connect"
+            className="icon"
             src={outlookIcon}
             alt="Microsoft Outlook icon"
           />

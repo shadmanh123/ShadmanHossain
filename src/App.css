@@ -10,6 +10,9 @@
   --line-height-text: 1.6;
   --font-size-text-mobile: 4vw;
   --line-height-text-mobile: 1.8;
+  --icon-size: 1.5vw;
+  --icon-hover-bg: rgba(180, 180, 180, 0.2);
+  --icon-size-mobile: 3vw;
 }
 
 body,
@@ -107,6 +110,18 @@ html {
 .list {
   font-size: 1.15vw;
 }
+
+.icon {
+  margin: 1vw;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  background-color: transparent;
+  transition: background-color 0.4s, color 0.4s;
+}
+.icon:hover {
+  background-color: var(--icon-hover-bg);
+}
+
 footer {
   margin: 1vw;
   display: flex;
@@ -158,6 +173,10 @@ footer {
   }
   .list {
     font-size: 2vw;
+  }
+  .icon {
+    width: var(--icon-size-mobile);
+    height: var(--icon-size-mobile);
   }
   .footer-content {
     font-size: 2.5vw;

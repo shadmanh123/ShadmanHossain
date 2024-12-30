@@ -6,20 +6,8 @@
   min-height: 1vw;
 }
 
-#connect-page__icons .connect {
-  margin: 1vw;
-  width: 1.5vw;
-  height: 1.5vw;
-  background-color: transparent;
-  transition: background-color 0.4s, color 0.4s;
-}
-
-#connect-page__icons .connect:hover {
-  background-color: rgba(180, 180, 180, 0.2);
-}
-@media (max-width: 800px) {
-  #connect-page__icons .connect {
-    width: 3vw;
-    height: 3vw;
-  }
+#connect-page__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
