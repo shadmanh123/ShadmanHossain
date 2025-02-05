@@ -37,7 +37,7 @@
 }
 @media (max-width: 800px) {
   #about-page__title {
-    font-size: 3vw;
+    font-size: var(--font-size-large);
   }
   #about-page__about--and--image {
     flex-direction: column;

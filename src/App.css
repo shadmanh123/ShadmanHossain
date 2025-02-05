@@ -3,14 +3,14 @@
   --text-colour: white;
   --bg-colour: black;
   --primary-colour: #3498db;
-  --font-size-small: 1.5vw;
-  --font-size-medium: 2vw;
-  --font-size-large: 3vw;
-  --font-size-heading: 6vw;
-  --line-height-text: 1.6;
-  --font-size-text-mobile: 4vw;
-  --line-height-text-mobile: 1.8;
-  --icon-size: 1.5vw;
+  --font-size-small: 2vw;
+  --font-size-medium: 2.5vw;
+  --font-size-large: 3.5vw;
+  --font-size-heading: 7vw;
+  --line-height-text: 1.8;
+  --font-size-text-mobile: 5vw;
+  --line-height-text-mobile: 2;
+  --icon-size: 2.5vw;
   --icon-hover-bg: rgba(180, 180, 180, 0.2);
   --icon-size-mobile: 3vw;
 }
@@ -100,15 +100,18 @@ html {
 }
 
 .heading {
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-large);
 }
 
 .subheading {
-  font-size: 1.25vw;
+  font-size: 2vw;
 }
 
 .list {
-  font-size: 1.15vw;
+  font-size: 1.8vw;
+  white-space: nowrap; /* Ensure bullet points stay on one line */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .icon {
@@ -156,29 +159,32 @@ footer {
 
 @media (max-width: 800px) {
   .navbar {
-    width: 60%;
+    width: 70%;
   }
   .nav-list li {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   .text {
     font-size: var(--font-size-text-mobile);
     line-height: var(--line-height-text-mobile);
   }
   .heading {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .subheading {
-    font-size: 2.25vw;
+    font-size: 3vw;
   }
   .list {
-    font-size: 2vw;
+    font-size: 2.5vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .icon {
     width: var(--icon-size-mobile);
     height: var(--icon-size-mobile);
   }
   .footer-content {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 }
