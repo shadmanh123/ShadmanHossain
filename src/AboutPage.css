@@ -46,6 +46,7 @@
   #about-page__about--and--image--about {
     font-size: 5vw;
     line-height: 1.8vw;
+    text-align: center;
   }
   #about-page__about--and--image--my--image img {
     display: none;
