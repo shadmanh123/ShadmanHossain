@@ -101,7 +101,7 @@
 }
 .card__contents__back__links {
   display: flex;
-  gap: 1vw;
+  gap: 0.5vw;
   justify-content: center;
   align-items: center;
   margin-top: 1vw;
