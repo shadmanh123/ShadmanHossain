@@ -108,7 +108,7 @@ html {
   line-height: var(--line-height-text);
 }
 
-.list {
+.list li {
   font-size: var(--font-size-small);
   white-space: nowrap; /* Ensure bullet points stay on one line */
   overflow: hidden;
@@ -172,7 +172,7 @@ footer {
     font-size: var(--font-size-small-mobile);
     line-height: var(--line-height-text-mobile);
   }
-  .list {
+  .list li {
     font-size: var(--font-size-small-mobile);
     white-space: nowrap;
     overflow: hidden;
