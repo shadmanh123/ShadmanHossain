@@ -42,6 +42,10 @@ html {
   height: 100%;
 }
 
+.title {
+  font-size: var(--font-size-medium);
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -155,6 +159,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .title {
+    font-size: var(--font-size-medium-mobile);
+  }
   .navbar {
     width: 70%;
   }

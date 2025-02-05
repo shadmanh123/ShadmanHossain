@@ -5,7 +5,7 @@ import image from "/images/Me.webp";
 export default function AboutPage() {
   return (
     <div className="about-page">
-      <div id="about-page__title">
+      <div className="title">
         <h1>/about_me</h1>
       </div>
       <div id="about-page__about--and--image">

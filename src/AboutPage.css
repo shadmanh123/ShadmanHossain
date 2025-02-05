@@ -9,10 +9,6 @@
   color: white;
 }
 
-#about-page__title {
-  font-size: var(--font-size-medium);
-}
-
 #about-page__about--and--image {
   display: flex;
   flex-direction: row;
@@ -36,9 +32,6 @@
   border-radius: 8px;
 }
 @media (max-width: 800px) {
-  #about-page__title {
-    font-size: var(--font-size-medium-mobile);
-  }
   #about-page__about--and--image {
     flex-direction: column;
     padding: 1vw;
