@@ -1,16 +1,29 @@
 .experience {
   line-height: var(--line-height-text);
 }
-.experience h2 {
+.company-name {
   font-size: var(--font-size-medium);
 }
 
-.experience h3 {
+.experience-timeline {
+  font-size: var(--font-size-small);
+}
+
+.experience__list {
   font-size: var(--font-size-small);
 }
 
 @media (max-width: 800px) {
   .experience {
     line-height: var(--line-height-text-mobile);
+  }
+  .company-name {
+    font-size: var(--font-size-medium-mobile);
+  }
+  .experience-timeline {
+    font-size: var(--font-size-small-mobile);
+  }
+  .experience__list {
+    font-size: var(--font-size-small-mobile);
   }
 }
