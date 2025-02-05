@@ -116,9 +116,13 @@
 }
 
 .card__contents__back__links__icon img {
-  width: 2vw;
-  height: 2vw;
+  width: var(--icon-size);
+  height: var(--icon-size);
   cursor: pointer;
+}
+
+.card__contents__back__links__icon:hover {
+  transform: scale(1.1);
 }
 
 .description-content {
@@ -200,8 +204,8 @@
     font-size: var(--font-size-extra-small-mobile);
   }
   .card__contents__back__links__icon img {
-    width: 4vw;
-    height: 4vw;
+    width: var(--icon-size-mobile);
+    height: var(--icon-size-mobile);
     cursor: pointer;
   }
   .description-content {
