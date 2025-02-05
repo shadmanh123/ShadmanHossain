@@ -3,12 +3,14 @@
   --text-colour: white;
   --bg-colour: black;
   --primary-colour: #3498db;
+  --font-size-extra-small: 1vw;
   --font-size-small: 1.5vw;
   --font-size-medium: 2vw;
   --font-size-large: 2.5vw;
   --font-size-heading: 5vw;
   --font-size-subheading: 3vw;
   --line-height-text: 1.8;
+  --font-size-extra-small-mobile: 2vw;
   --font-size-small-mobile: 3vw;
   --font-size-medium-mobile: 3.5vw;
   --font-size-large-mobile: 4vw;
