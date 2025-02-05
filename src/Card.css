@@ -66,7 +66,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1vw;
+  font-size: var(--font-size-medium);
 }
 
 .card:hover .card__contents {
@@ -126,7 +126,7 @@
   width: fit-content;
   max-width: 90%;
   height: fit-content;
-  font-size: 1vw;
+  font-size: var(--font-size-small);
   margin: auto;
   padding: 1vw;
   background-color: #00000099;
@@ -137,12 +137,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.card-footer {
-  color: #ffffff88;
-  margin-top: 5px;
-  font-size: 8px;
 }
 
 .card__contents__back .card__contents__back__image {
@@ -203,7 +197,7 @@
     margin: 2vw;
   }
   .card__contents__front__content {
-    font-size: 2vw;
+    font-size: var(--font-size-medium-mobile);
   }
   .card__contents__back__links__icon img {
     width: 4vw;
@@ -211,7 +205,7 @@
     cursor: pointer;
   }
   .description-content {
-    font-size: 2vw;
+    font-size: var(--font-size-small-mobile);
     justify-content: center;
   }
 }
