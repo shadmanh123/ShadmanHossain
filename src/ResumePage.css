@@ -9,11 +9,6 @@
   color: var(--text-colour);
 }
 
-#resume-page__experience--title,
-#resume-page__projects--title {
-  font-size: var(--font-size-medium);
-}
-
 #resume-page__experience {
   align-self: flex-start;
 }
@@ -26,8 +21,4 @@
 }
 
 @media (max-width: 800px) {
-  #resume-page__experience--title,
-  #resume-page__projects--title {
-    font-size: var(--font-size-large);
-  }
 }
