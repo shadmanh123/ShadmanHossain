@@ -1,4 +1,5 @@
 import "./Card.css";
+import { useState, useEffect } from "react";
 import githubIcon from "/images/GitHubIcon.webp";
 import youtubeIcon from "/images/YouTubeIcon.webp";
 interface CardProps {
@@ -14,13 +15,27 @@ export default function Card({
   link,
   youtubeLink,
 }: CardProps) {
+  const [hoverText, setHoverText] = useState("Hover Me");
+  useEffect(() => {
+    //Function to update text based on screen width
+    const updateText = () => {
+      if (window.innerWidth <= 800) {
+        setHoverText("Tap Me"); //Mobile
+      } else {
+        setHoverText("Hover Me"); //Desktop
+      }
+    };
+    updateText();
+    window.addEventListener("resize", updateText); //Listen for screen resize
+    return () => window.removeEventListener("resize", updateText); //Cleanup
+  }, []);
   return (
     <div className="card">
       <div className="card__contents">
         <div className="card__contents__front">
           <div className="card__contents__front__content">
             <h1>{title}</h1>
-            <p>Hover Me</p>
+            <p>{hoverText}</p>
           </div>
         </div>
         <div className="card__contents__back">
