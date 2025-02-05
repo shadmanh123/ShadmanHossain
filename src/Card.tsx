@@ -58,11 +58,15 @@ export default function Card({
           <div className="card__contents__back__links">
             <div className="card__contents__back__links__icon">
               <a href={link} target="_blank" rel="noopener noreferrer">
-                <img src={githubIcon} alt="GitHub icon"></img>
+                <img className="icon" src={githubIcon} alt="GitHub icon"></img>
               </a>
               {youtubeLink && (
                 <a href={youtubeLink} target="_blank" rel="noopener noreferrer">
-                  <img src={youtubeIcon} alt="YouTube icon"></img>
+                  <img
+                    className="icon"
+                    src={youtubeIcon}
+                    alt="YouTube icon"
+                  ></img>
                 </a>
               )}
             </div>

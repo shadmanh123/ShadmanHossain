@@ -115,16 +115,6 @@
   width: fit-content;
 }
 
-.card__contents__back__links__icon img {
-  width: var(--icon-size);
-  height: var(--icon-size);
-  cursor: pointer;
-}
-
-.card__contents__back__links__icon:hover {
-  transform: scale(1.1);
-}
-
 .description-content {
   box-shadow: 1vw #00000088;
   width: fit-content;
@@ -203,11 +193,7 @@
   .card__contents__front__content {
     font-size: var(--font-size-extra-small-mobile);
   }
-  .card__contents__back__links__icon img {
-    width: var(--icon-size-mobile);
-    height: var(--icon-size-mobile);
-    cursor: pointer;
-  }
+
   .description-content {
     font-size: var(--font-size-extra-small-mobile);
     justify-content: center;
