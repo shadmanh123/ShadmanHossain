@@ -34,9 +34,9 @@
     background-attachment: scroll;
   }
   #home-page__title {
-    font-size: 10vw;
+    font-size: var(--font-size-heading-mobile);
   }
   #home-page__description {
-    font-size: 5vw;
+    font-size: var(--font-size-subheading-mobile);
   }
 }
