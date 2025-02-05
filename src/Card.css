@@ -114,7 +114,9 @@
   justify-content: center;
   width: fit-content;
 }
-
+.card__contents__back__links__icon img {
+  padding: 0.2vw; /* Add slight padding inside each icon */
+}
 .description-content {
   box-shadow: 1vw #00000088;
   width: fit-content;
