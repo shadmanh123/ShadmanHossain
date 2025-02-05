@@ -5,14 +5,16 @@
   --primary-colour: #3498db;
   --font-size-small: 2vw;
   --font-size-medium: 2.5vw;
-  --font-size-large: 3.5vw;
+  --font-size-large: 3vw;
   --font-size-heading: 4vw;
-  --font-size-subheading: 2.3vw;
+  --font-size-subheading: 3.5vw;
   --line-height-text: 1.8;
-  --font-size-text-mobile: 5vw;
-  --line-height-text-mobile: 2;
-  --font-size-heading-mobile: 5.5vw;
+  --font-size-small-mobile: 3vw;
+  --font-size-medium-mobile: 3.5vw;
+  --font-size-large-mobile: 4vw;
+  --font-size-heading-mobile: 5vw;
   --font-size-subheading-mobile: 4.5vw;
+  --line-height-text-mobile: 2;
   --icon-size: 2.5vw;
   --icon-hover-bg: rgba(180, 180, 180, 0.2);
   --icon-size-mobile: 3vw;
@@ -46,7 +48,7 @@ html {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  width: 60%;
+  width: 70%;
   padding: 0 1.6vw;
   text-align: center;
 }
@@ -103,7 +105,7 @@ html {
 }
 
 .list {
-  font-size: 1.8vw;
+  font-size: var(--font-size-small);
   white-space: nowrap; /* Ensure bullet points stay on one line */
   overflow: hidden;
   text-overflow: ellipsis;
@@ -157,14 +159,14 @@ footer {
     width: 70%;
   }
   .nav-list li {
-    font-size: 3vw;
+    font-size: var(--font-size-medium-mobile);
   }
   .text {
-    font-size: var(--font-size-text-mobile);
+    font-size: var(--font-size-small-mobile);
     line-height: var(--line-height-text-mobile);
   }
   .list {
-    font-size: 2.5vw;
+    font-size: var(--font-size-small-mobile);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -174,6 +176,6 @@ footer {
     height: var(--icon-size-mobile);
   }
   .footer-content {
-    font-size: 3vw;
+    font-size: var(--font-size-medium-mobile);
   }
 }
