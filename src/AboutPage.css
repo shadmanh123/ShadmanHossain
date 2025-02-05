@@ -43,11 +43,9 @@
     flex-direction: column;
     padding: 1vw;
   }
-  /* #about-page__about--and--image--about {
-    font-size: 5vw;
-    line-height: 1.8vw;
+  #about-page__about--and--image--about {
     text-align: center;
-  } */
+  }
   #about-page__about--and--image--my--image img {
     display: none;
   }
