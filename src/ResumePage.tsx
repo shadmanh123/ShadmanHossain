@@ -15,6 +15,13 @@ export default function ResumePage() {
       </div>
       <div id="resume-page__projects">
         <Card
+          title={"Wizdom"}
+          description={
+            "Developing an app using the MERN tech stack that connects individuals in the tech community, allowing users to find mentors, friends, or collaborators based on their interests and professional goals"
+          }
+          link={"https://github.com/TheCoderSingh/wizdom-app"}
+        />
+        <Card
           title={"AI Pac-Man"}
           description={
             "Developed an advanced Python-based AI agent modelled after Pac-Man that learns from its mistakes and improves gameplay strategy to achieve the highest score in new mazes with varying numbers of ghosts"

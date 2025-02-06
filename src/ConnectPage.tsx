@@ -14,7 +14,7 @@ export default function connectPageRef() {
           <img className="icon" src={linkedinIcon} alt="LinkedIn icon" />
         </a>
         <a
-          href="https://github.com/shadmanh123?tab=repositories"
+          href="https://github.com/shadmanh123"
           target="_blank"
           rel="noopener noreferrer"
         >
