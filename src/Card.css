@@ -114,8 +114,12 @@
   justify-content: center;
   width: fit-content;
 }
-.icon {
+.card__contents__back__links__icon .icon {
   margin: 0vw;
+}
+
+.card__contents__back__links__icon img {
+  padding: 0;
 }
 .description-content {
   box-shadow: 1vw #00000088;
