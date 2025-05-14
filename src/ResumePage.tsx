@@ -15,9 +15,9 @@ export default function ResumePage() {
       </div>
       <div id="resume-page__projects">
         <Card
-          title={"Wizdom"}
+          title={"Twiine"}
           description={
-            "Developing an app using the MERN tech stack that connects individuals in the tech community, allowing users to find mentors, friends, or collaborators based on their interests and professional goals"
+            "Developing an app using the MERN stack that connects users with mentors, mentees, hackathon partners and industry professionals"
           }
           link={"https://github.com/TheCoderSingh/wizdom-app"}
         />
