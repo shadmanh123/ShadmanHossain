@@ -27,7 +27,7 @@ export default function HomePage() {
         >
           {ROLES[roleIndex % ROLES.length]}
         </TextTransition>{" "}
-        Developer
+        Engineer
       </h2>
     </div>
   );
