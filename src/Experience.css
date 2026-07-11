@@ -1,29 +1,91 @@
 .experience {
-  line-height: var(--line-height-text);
-}
-.company-name {
-  font-size: var(--font-size-medium);
+  padding: 56px var(--section-x);
+  border-bottom: 1px solid var(--border);
 }
 
-.experience-timeline {
-  font-size: var(--font-size-small);
+.experience__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 34px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.experience__head h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.experience__toggle {
+  display: flex;
+  gap: 22px;
+}
+
+.experience__toggle button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 2px 0;
+  color: var(--text-faint);
+  border-bottom: 2px solid transparent;
+}
+
+.experience__toggle button.is-active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
 .experience__list {
-  font-size: var(--font-size-small);
+  display: flex;
+  flex-direction: column;
 }
 
-@media (max-width: 800px) {
-  .experience {
-    line-height: var(--line-height-text-mobile);
-  }
-  .company-name {
-    font-size: var(--font-size-medium-mobile);
-  }
-  .experience-timeline {
-    font-size: var(--font-size-small-mobile);
-  }
-  .experience__list {
-    font-size: var(--font-size-small-mobile);
+.experience__entry {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 28px;
+  padding: 26px 0;
+  border-top: 1px solid var(--border);
+}
+
+.experience__dates {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.experience__loc {
+  font-size: 13px;
+  color: var(--text-faint);
+  margin-top: 2px;
+}
+
+.experience__entry h3 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.experience__company {
+  color: var(--accent);
+}
+
+.experience__entry ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.experience__entry li {
+  color: var(--text-body);
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 720px) {
+  .experience__entry {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 }

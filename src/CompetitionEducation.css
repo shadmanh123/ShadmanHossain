@@ -1,0 +1,26 @@
+.competition-education {
+  padding: 56px var(--section-x);
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.competition-education h2 {
+  margin: 0 0 14px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.competition-education p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-body);
+}
+
+@media (max-width: 720px) {
+  .competition-education {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
