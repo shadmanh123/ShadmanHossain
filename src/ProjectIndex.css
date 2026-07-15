@@ -73,15 +73,18 @@
 }
 
 .projects__card-foot a {
+  display: inline-block;
   font-size: 13px;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
   font-family: var(--font-mono);
+  transform-origin: left center;
+  transition: transform 0.25s ease;
 }
 
 .projects__card-foot a:hover {
-  text-decoration: underline;
+  transform: scale(1.1);
 }
 
 .projects__tags {

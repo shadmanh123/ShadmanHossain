@@ -30,14 +30,16 @@
 }
 
 .header__nav a {
+  display: inline-block;
   color: #e8f2e8;
   text-decoration: none;
   opacity: 0.75;
-  transition: opacity 0.2s ease, color 0.2s ease;
+  transition: opacity 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .header__nav a:hover {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 .header__nav-cta {

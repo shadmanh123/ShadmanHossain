@@ -68,13 +68,15 @@
 }
 
 .footer__links a {
+  display: inline-block;
   color: var(--text-muted);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .footer__links a:hover {
   color: var(--accent);
+  transform: scale(1.1);
 }
 
 .footer__copyright {
