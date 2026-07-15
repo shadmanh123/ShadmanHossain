@@ -1,0 +1,137 @@
+.projects__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.projects__card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.projects__card:hover {
+  transform: translateY(-3px);
+  border-color: var(--line-strong);
+}
+
+.projects__badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.projects__badge {
+  font-size: 10.5px;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 4px 11px;
+  letter-spacing: 0.04em;
+  font-family: var(--font-mono);
+}
+
+.projects__badge--prize {
+  color: #0a0c0a;
+  background: var(--accent);
+}
+
+.projects__badge--fortinet {
+  color: var(--accent);
+  background: rgba(51, 255, 102, 0.1);
+  border: 1px solid rgba(51, 255, 102, 0.3);
+  padding: 3px 11px;
+}
+
+.projects__card h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #fff;
+  text-wrap: pretty;
+}
+
+.projects__card p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--text-body);
+  text-wrap: pretty;
+}
+
+.projects__card-foot {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.projects__card-foot a {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--font-mono);
+}
+
+.projects__card-foot a:hover {
+  text-decoration: underline;
+}
+
+.projects__tags {
+  font-size: 11.5px;
+  color: var(--text-faint);
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  text-align: right;
+}
+
+.projects__more {
+  margin: 26px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+}
+
+.projects__more-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.projects__more a {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.projects__more a:hover {
+  color: var(--accent-bright);
+  transform: scale(1.1);
+}
+
+.projects__dot {
+  color: var(--text-faint);
+}
+
+@media (max-width: 760px) {
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects__card {
+    padding: 24px 22px;
+  }
+}
