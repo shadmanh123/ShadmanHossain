@@ -1,6 +1,19 @@
+import { useEffect, useState } from "react";
 import "./Header.css";
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (!menuOpen) return;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [menuOpen]);
+
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <>
       {/* Hidden SVG filter: fractal-noise displacement gives the glass its
@@ -35,7 +48,7 @@ export default function Header() {
         </defs>
       </svg>
 
-      <header className="header">
+      <header className={`header ${menuOpen ? "is-open" : ""}`}>
         <span className="header__sheen" aria-hidden="true" />
         <a href="#top" className="header__prompt">
           shadman@sfu:~$
@@ -48,7 +61,33 @@ export default function Header() {
             Contact
           </a>
         </nav>
+        <button
+          type="button"
+          className="header__burger"
+          aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen((o) => !o)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </header>
+
+      <nav className={`header__mobile-nav ${menuOpen ? "is-open" : ""}`}>
+        <a href="#experience" onClick={closeMenu}>
+          Experience
+        </a>
+        <a href="#projects" onClick={closeMenu}>
+          Projects
+        </a>
+        <a href="#achievements" onClick={closeMenu}>
+          Achievements
+        </a>
+        <a href="#contact" className="header__nav-cta" onClick={closeMenu}>
+          Contact
+        </a>
+      </nav>
     </>
   );
 }

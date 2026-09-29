@@ -21,7 +21,7 @@ const EXPERIENCE: ExperienceEntry[] = [
     dates: "09/2025 – 10/2025",
     sec: [
       "Planned and ran the organization's first end-to-end penetration test, identifying critical vulnerabilities across authentication, access control, and infrastructure before production.",
-      "Uncovered 9 key findings — leaked credentials, SSRF, CSP misconfigurations, legacy TLS, insecure Docker/Nginx — via automated scanning (gitleaks, semgrep, trivy, ZAP) plus manual validation.",
+      "Uncovered 9 key findings like leaked credentials, SSRF, CSP misconfigurations, legacy TLS, and insecure Docker/Nginx via automated scanning (gitleaks, semgrep, trivy, ZAP) plus manual validation.",
       "Translated technical vulnerabilities into a board-ready risk report adopted by leadership as the platform's formal compliance roadmap.",
     ],
     dev: [
@@ -37,7 +37,7 @@ const EXPERIENCE: ExperienceEntry[] = [
     dates: "10/2024 – Present",
     sec: [
       "Designed secure REST APIs (Node.js, Express, MongoDB) with JWT/OAuth 2.0 and bcrypt hashing, deployed on AWS with MongoDB Atlas.",
-      "Hardened the backend with TDD, input validation, token expiration, and session lifecycle controls — eliminating credential and session vulnerability classes before production.",
+      "Hardened the backend with TDD, input validation, token expiration, and session lifecycle controls thereby eliminating credential and session vulnerability classes before production.",
       "Coached the team on access control and secure SDLC patterns through security-focused code reviews every sprint.",
     ],
     dev: [
@@ -52,7 +52,7 @@ const EXPERIENCE: ExperienceEntry[] = [
     loc: "Burnaby, BC",
     dates: "01/2023 – 09/2024",
     sec: [
-      "Triaged Sophos Central endpoint alerts across 500+ endpoints using forensic procedures — log preservation and structured evidence documentation — with a 99% resolution rate.",
+      "Triaged Sophos Central endpoint alerts across 500+ endpoints using forensic procedures like log preservation and structured evidence documentation with a 99% resolution rate.",
       "Administered Active Directory enforcing least-privilege across fully auditable onboarding/offboarding workflows.",
       "Delivered security awareness training that cut repeat incident recurrence organization-wide.",
     ],

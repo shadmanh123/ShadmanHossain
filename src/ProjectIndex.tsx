@@ -130,14 +130,19 @@ export default function ProjectIndex() {
 
         <div className="projects__more">
           <span>more:</span>
-          {MORE.map((m, i) => (
-            <span key={m.href} className="projects__more-item">
-              <a href={m.href} target="_blank" rel="noreferrer">
+          <div className="projects__more-list">
+            {MORE.map((m) => (
+              <a
+                key={m.href}
+                href={m.href}
+                target="_blank"
+                rel="noreferrer"
+                className="projects__more-btn"
+              >
                 {m.label}
               </a>
-              {i < MORE.length - 1 && <span className="projects__dot">·</span>}
-            </span>
-          ))}
+            ))}
+          </div>
         </div>
       </Reveal>
     </section>
